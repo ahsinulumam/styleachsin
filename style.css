@@ -1,0 +1,90 @@
+#pesan {
+   position:fixed;
+
+    width: 100%;
+    height:auto;
+    background: #00880D;
+    overflow-y: auto;
+    z-index:2;
+border-radius:0 0 0px 0px;
+}
+
+#map {
+    float: right;
+    width: 100%;
+    height: 67vh;
+    z-index:1;
+    top:33vh;
+}
+
+#title {
+    text-align: center;
+    margin: 8px 0;
+
+    margin-top:-17px;
+}
+
+.inner {
+    padding: 20px;
+
+}
+
+#detail {
+    position: fixed;
+    display: none;
+    top: 66%;
+    left:3.7%;
+    width: 93%;
+    height: 250px;
+    background: #00880D;
+    overflow-y: auto;
+    z-index: 2;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#detail th, #detail td {
+    padding: 5px;
+    font-size:14px;
+}
+.card-custom {
+    background-color: #fff;
+    padding: 10px 10px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 30%);
+}
+button.tab-opsi {
+    position: relative;
+    background: transparent;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #00880D;
+    cursor: pointer;
+} 
+button.tab-opsi.active {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+font-weight:bold;
+}          
+#kirim-wa {
+    position: relative;
+    display: block;
+    background: #00880D;
+    color: #fff;
+    padding: 3px 10px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+}
+#kirim-wa:focus,#kirim-wa:hover {
+    border: 0;
+    outline: 0;
+}          
+#pesan-btn {
+    display: block;
+    margin: auto;
+    color:#fff;
+}
